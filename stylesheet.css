@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<style>
+		body{
+			background-color: pink
+		}
+		* {
+		box-sizing: border-box;
+		}
+
+		.wrapper{
+			background: pink;
+			max-width: 960px;
+			margin:0 auto;
+			/*padding:20px;*/
+		}
+		.catalog{
+			text-align: right;
+			font-size: 120%;
+			font-weight: bold;
+			color:black
+		}
+		.catalog span{
+			margin-left: 5%;
+		}
+		.catalog a:link{
+			text-decoration: none;
+		}
+		.catalog a:visited{
+			color:black;
+		}
+		.catalog a:hover{
+			color:blue;
+		}
+
+		.container{
+			position:relative;
+			width: 100%;
+		}
+		.container img {
+			vertical-align: middle;
+		}
+		.textblock{
+			color:silver;
+			position: absolute;
+			background-color: black;
+			bottom:0;
+			width:100%;
+			background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+		}
+		.textblock span{
+			background-color: red;
+			color:white;
+			padding: 2px;
+			float:right;
+			margin-right:2%;
+		}
+
+		section{
+			float:left;
+			text-align: justify;
+			width:65%;
+		}
+		aside{
+			float:left;
+			border-style: solid;
+			border-color: black;
+			margin-top: 3%;
+			margin-left: 2%;
+			width: 33%;
+			font-family: sans-serif;
+			color: purple;
+		}
+
+		img.profile{ 
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		img.icon{
+			margin-left: 2%;
+			margin-right: 2%;
+		}
+
+	/*	.row{
+		  content: "";
+		  display: table;
+		  clear: both;
+		}*/
+
+		.columns{
+		  float: left;
+		  width: 33%;
+		  padding: 10px;
+		}
+		.cities{
+			float:left;
+			width:50%;
+
+		}
+		.piccol{
+			float:left;
+			width:25%;
+			padding:2px;
+		}
+		.pictures::after{
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+		@media only screen and (max-width: 620px){
+			body{
+				width:100%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+
+</body>
+</html>
