@@ -5,6 +5,7 @@
 	<style>
 		body{
 			background-color: pink
+			max-width: 960px;
 		}
 		* {
 		box-sizing: border-box;
